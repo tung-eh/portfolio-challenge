@@ -1,9 +1,19 @@
+import React from 'react'
+
+import Experiences from './components/Experiences'
+import Hobbies from './components/Hobbies'
+import PersonalInfo from './components/PersonalInfo'
+
 function App() {
   return (
-    <div className="grid grid-rows-layout min-h-screen">
-      <div>Header</div>
-      <div>Content</div>
-      <div className="text-center text-xs text-gray-400">
+    <div className="grid grid-cols-layout grid-rows-layout gap-8 min-h-screen bg-gray-100 p-14">
+      <div className="grid gap-10">
+        <PersonalInfo />
+        <Experiences />
+        <Hobbies />
+      </div>
+      <div className="">Right content</div>
+      <div className="col-span-2 text-center text-xs text-gray-400">
         Tung Teng @ DevChallenges.io
       </div>
     </div>

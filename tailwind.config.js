@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        layout: 'auto 1fr auto',
+        layout: '1fr auto',
+      },
+      gridTemplateColumns: {
+        layout: '1fr 2fr',
+        info: 'auto 1fr',
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
