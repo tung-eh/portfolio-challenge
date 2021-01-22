@@ -9,7 +9,7 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-    <div className="grid grid-cols-layout grid-rows-layout gap-8 min-h-screen bg-gray-100 p-14">
+    <div className="grid md:grid-cols-layout md:grid-rows-layout gap-8 min-h-screen bg-gray-100 p-2 md:p-14">
       <div className="grid gap-10">
         <PersonalInfo />
         <Experiences />
@@ -20,7 +20,7 @@ function App() {
         <Projects />
         <Blogs />
       </div>
-      <div className="col-span-2 text-center text-xs text-gray-400 mt-20">
+      <div className="md:col-span-2 text-center text-xs text-gray-400 mt-20">
         Tung Teng @ DevChallenges.io
       </div>
     </div>

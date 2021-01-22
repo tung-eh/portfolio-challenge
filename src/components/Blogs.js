@@ -19,8 +19,11 @@ const Blogs = () => (
     </div>
     <div className="grid gap-4">
       {blogs.map(({ image, title, description, plaform }, index) => (
-        <div className="card flex gap-8" key={index}>
-          <div className="flex flex-col justify-between">
+        <div
+          className="card flex flex-col-reverse md:flex-row gap-8"
+          key={index}
+        >
+          <div className="flex flex-col gap-2 justify-between">
             <span className="text-sm text-gray-300">Blog</span>
             <h2 className="text-xl text-gray-700" style={{ maxWidth: '11rem' }}>
               {title}

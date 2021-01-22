@@ -40,9 +40,9 @@ const Projects = () => (
     <div className="grid gap-4">
       {projects.map(
         ({ image, tags, name, description, demoLink, githubLink }, index) => (
-          <div className="card flex gap-8" key={index}>
+          <div className="card flex flex-col md:flex-row gap-8" key={index}>
             <img className="rounded-xl w-72" src={image} alt={name} />
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col gap-8 justify-between">
               <div>
                 <div className="text-sm text-gray-600 mb-5">
                   {tags.map((tag) => (

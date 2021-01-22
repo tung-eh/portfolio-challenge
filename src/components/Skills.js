@@ -44,7 +44,7 @@ const SkillGroup = ({ name, skills }) => (
 )
 
 const Skills = () => (
-  <div className="grid grid-cols-2 items-start gap-8">
+  <div className="grid md:grid-cols-2 items-start gap-8">
     <SkillGroup name="Front end" skills={skills.frontend} />
     <SkillGroup name="Design" skills={skills.design} />
   </div>
