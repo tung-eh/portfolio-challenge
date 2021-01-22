@@ -10,7 +10,7 @@ const skills = {
   ],
   design: [
     { name: 'Figma', scale: 0.2 },
-    { name: 'Hand', scale: 0.6 },
+    { name: 'Pen & paper', scale: 0.6 },
     { name: 'Copying', scale: 0.9 },
   ],
 }
