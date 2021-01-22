@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Blogs from './components/Blogs'
 import Experiences from './components/Experiences'
 import Hobbies from './components/Hobbies'
 import PersonalInfo from './components/PersonalInfo'
@@ -17,6 +18,7 @@ function App() {
       <div className="grid gap-10 content-start">
         <Skills />
         <Projects />
+        <Blogs />
       </div>
       <div className="col-span-2 text-center text-xs text-gray-400 mt-20">
         Tung Teng @ DevChallenges.io
