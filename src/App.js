@@ -3,6 +3,7 @@ import React from 'react'
 import Experiences from './components/Experiences'
 import Hobbies from './components/Hobbies'
 import PersonalInfo from './components/PersonalInfo'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
         <Experiences />
         <Hobbies />
       </div>
-      <div className="">Right content</div>
-      <div className="col-span-2 text-center text-xs text-gray-400">
+      <div className="grid-gap-10">
+        <Skills />
+      </div>
+      <div className="col-span-2 text-center text-xs text-gray-400 mt-20">
         Tung Teng @ DevChallenges.io
       </div>
     </div>
