@@ -22,7 +22,7 @@ const ProgressBar = ({ scale }) => {
   return (
     <div className="relative h-2 w-full bg-gray-200 rounded-full">
       <div
-        className="absolute top-0 left-0 h-full rounded-full bg-blue-400 transition-all duration-500"
+        className="absolute top-0 left-0 h-full rounded-full bg-blue-400 transition-all duration-1000"
         style={{ width: width }}
       />
     </div>
@@ -32,7 +32,7 @@ const ProgressBar = ({ scale }) => {
 const SkillGroup = ({ name, skills }) => (
   <div className="card">
     <h1 className="font-bold text-gray-600 uppercase mb-4">{name}</h1>
-    <div className="grid grid-cols-layout items-center gap-y-4">
+    <div className="grid grid-cols-layout items-center text-gray-600 gap-y-4">
       {skills.map(({ name, scale }, index) => (
         <>
           <span className="text-sm">{name}</span>

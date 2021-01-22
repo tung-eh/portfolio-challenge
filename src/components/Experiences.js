@@ -30,7 +30,7 @@ const exps = [
 const Experiences = () => (
   <div className="card">
     <h1 className="text-xl text-gray-600 mb-6">Experiences</h1>
-    <div className="grid gap-6 text-gray-400 ml-2">
+    <div className="grid gap-6 ml-2">
       {exps.map(({ image, date, role, description }, index) => (
         <div className="flex gap-6" key="index">
           <img className="w-12 h-12 mt-4" src={image} alt="company logo" />
